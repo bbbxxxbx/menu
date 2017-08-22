@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "ViewController1.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds] ;
+    UITabBarController *tabbar = [[UITabBarController alloc] init] ;
+    tabbar.view.backgroundColor = [UIColor whiteColor] ;
+    ViewController *vc1 = [[ViewController alloc] init] ;
+    vc1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"效果一" image:nil tag:1] ;
+    vc1.tabBarItem.titlePositionAdjustment = UIOffsetMake(0, -15) ;
+    ViewController1 *vc2 = [[ViewController1 alloc] init] ;
+    vc2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"效果二" image:nil tag:2] ;
+    vc2.tabBarItem.titlePositionAdjustment = UIOffsetMake(0, -15) ;
+    [tabbar setViewControllers:@[vc1,vc2]] ;
+    self.window.rootViewController = tabbar ;
+    [self.window makeKeyAndVisible] ;
     return YES;
 }
 

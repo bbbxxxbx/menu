@@ -15,6 +15,7 @@
 		4853D8761F4C588700388EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D8751F4C588700388EF4 /* main.m */; };
 		4853D8801F4C588700388EF4 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D87F1F4C588700388EF4 /* ____Tests.m */; };
 		4853D88B1F4C588800388EF4 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D88A1F4C588800388EF4 /* ____UITests.m */; };
+		4853D89A1F4C5A9F00388EF4 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D8991F4C5A9F00388EF4 /* ViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4853D8861F4C588800388EF4 /* 滑动菜单UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "滑动菜单UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4853D88A1F4C588800388EF4 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		4853D88C1F4C588800388EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4853D8981F4C5A9F00388EF4 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		4853D8991F4C5A9F00388EF4 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4853D8671F4C588700388EF4 /* AppDelegate.m */,
 				4853D8691F4C588700388EF4 /* ViewController.h */,
 				4853D86A1F4C588700388EF4 /* ViewController.m */,
+				4853D8981F4C5A9F00388EF4 /* ViewController1.h */,
+				4853D8991F4C5A9F00388EF4 /* ViewController1.m */,
 				4853D86C1F4C588700388EF4 /* Main.storyboard */,
 				4853D86F1F4C588700388EF4 /* Assets.xcassets */,
 				4853D8711F4C588700388EF4 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4853D89A1F4C5A9F00388EF4 /* ViewController1.m in Sources */,
 				4853D86B1F4C588700388EF4 /* ViewController.m in Sources */,
 				4853D8761F4C588700388EF4 /* main.m in Sources */,
 				4853D8681F4C588700388EF4 /* AppDelegate.m in Sources */,
@@ -430,7 +436,7 @@
 				DEVELOPMENT_TEAM = 6W88TF6KJL;
 				INFOPLIST_FILE = "滑动菜单/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.learnOC.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnOC.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,7 +449,7 @@
 				DEVELOPMENT_TEAM = 6W88TF6KJL;
 				INFOPLIST_FILE = "滑动菜单/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.learnOC.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnOC.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
