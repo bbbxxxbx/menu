@@ -16,6 +16,8 @@
 		4853D8801F4C588700388EF4 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D87F1F4C588700388EF4 /* ____Tests.m */; };
 		4853D88B1F4C588800388EF4 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D88A1F4C588800388EF4 /* ____UITests.m */; };
 		4853D89A1F4C5A9F00388EF4 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D8991F4C5A9F00388EF4 /* ViewController1.m */; };
+		486C77B41F617D5700DC3E2A /* MenuView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C77B31F617D5700DC3E2A /* MenuView1.m */; };
+		487488BE1F4DB647003EF7A9 /* UIView+BXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 487488BD1F4DB647003EF7A9 /* UIView+BXAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		4853D88C1F4C588800388EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4853D8981F4C5A9F00388EF4 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		4853D8991F4C5A9F00388EF4 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		486C77B21F617D5700DC3E2A /* MenuView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuView1.h; sourceTree = "<group>"; };
+		486C77B31F617D5700DC3E2A /* MenuView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuView1.m; sourceTree = "<group>"; };
+		487488BC1F4DB647003EF7A9 /* UIView+BXAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BXAddition.h"; sourceTree = "<group>"; };
+		487488BD1F4DB647003EF7A9 /* UIView+BXAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BXAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +116,15 @@
 				4853D86A1F4C588700388EF4 /* ViewController.m */,
 				4853D8981F4C5A9F00388EF4 /* ViewController1.h */,
 				4853D8991F4C5A9F00388EF4 /* ViewController1.m */,
+				486C77B21F617D5700DC3E2A /* MenuView1.h */,
+				486C77B31F617D5700DC3E2A /* MenuView1.m */,
 				4853D86C1F4C588700388EF4 /* Main.storyboard */,
 				4853D86F1F4C588700388EF4 /* Assets.xcassets */,
 				4853D8711F4C588700388EF4 /* LaunchScreen.storyboard */,
 				4853D8741F4C588700388EF4 /* Info.plist */,
 				4853D8751F4C588700388EF4 /* main.m */,
+				487488BC1F4DB647003EF7A9 /* UIView+BXAddition.h */,
+				487488BD1F4DB647003EF7A9 /* UIView+BXAddition.m */,
 			);
 			path = "滑动菜单";
 			sourceTree = "<group>";
@@ -268,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4853D89A1F4C5A9F00388EF4 /* ViewController1.m in Sources */,
+				487488BE1F4DB647003EF7A9 /* UIView+BXAddition.m in Sources */,
 				4853D86B1F4C588700388EF4 /* ViewController.m in Sources */,
+				486C77B41F617D5700DC3E2A /* MenuView1.m in Sources */,
 				4853D8761F4C588700388EF4 /* main.m in Sources */,
 				4853D8681F4C588700388EF4 /* AppDelegate.m in Sources */,
 			);
