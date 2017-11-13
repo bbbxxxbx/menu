@@ -39,11 +39,11 @@
     NSArray *backgroundColors = @[[UIColor redColor], [UIColor blueColor], [UIColor yellowColor], [UIColor blackColor], [UIColor orangeColor], [UIColor greenColor], [UIColor purpleColor]] ;
     NSDictionary *setting = @{MenuMainIndexKey:@(0),
                               MenuMarginKey:@(20.0),
-                              MenuItemSpaceKey:@(17.0),
+                              MenuItemSpaceKey:@(25.0),
                               MenuNormalFontKey:@(15.0),
-                              MenuSelectedFontKey:@(30.0),
-                              MenuNormalWidthKey:@(60.0),
-                              MenuSelectedWidthKey:@(120.0)
+                              MenuSelectedFontKey:@(25.0),
+                              MenuNormalWidthKey:@(50.0),
+                              MenuSelectedWidthKey:@(100.0)
                               } ;
     _menuView = [[MenuView1 alloc] initWithFrame:CGRectMake(0, _StatusBarHeight_, _ScreenWidth_, 40) items:items settings:setting] ;
     _menuView.delegate = self ;

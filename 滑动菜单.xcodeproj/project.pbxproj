@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48258F361FB8752200DAB180 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48258F351FB8752200DAB180 /* MenuView.m */; };
 		4853D8681F4C588700388EF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D8671F4C588700388EF4 /* AppDelegate.m */; };
 		4853D86B1F4C588700388EF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853D86A1F4C588700388EF4 /* ViewController.m */; };
 		4853D86E1F4C588700388EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4853D86C1F4C588700388EF4 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48258F341FB8752200DAB180 /* MenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		48258F351FB8752200DAB180 /* MenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
 		4853D8631F4C588700388EF4 /* 滑动菜单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "滑动菜单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4853D8661F4C588700388EF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4853D8671F4C588700388EF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				4853D86A1F4C588700388EF4 /* ViewController.m */,
 				4853D8981F4C5A9F00388EF4 /* ViewController1.h */,
 				4853D8991F4C5A9F00388EF4 /* ViewController1.m */,
+				48258F341FB8752200DAB180 /* MenuView.h */,
+				48258F351FB8752200DAB180 /* MenuView.m */,
 				486C77B21F617D5700DC3E2A /* MenuView1.h */,
 				486C77B31F617D5700DC3E2A /* MenuView1.m */,
 				4853D86C1F4C588700388EF4 /* Main.storyboard */,
@@ -283,6 +288,7 @@
 				486C77B41F617D5700DC3E2A /* MenuView1.m in Sources */,
 				4853D8761F4C588700388EF4 /* main.m in Sources */,
 				4853D8681F4C588700388EF4 /* AppDelegate.m in Sources */,
+				48258F361FB8752200DAB180 /* MenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
